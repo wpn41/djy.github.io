@@ -1,0 +1,232 @@
+#cart
+{
+	font-size: 14px;
+}
+
+#cart ul li
+{
+	float: left;
+}
+
+#cart ul:after
+{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	clear: both;
+}
+
+#cart #cartTitle
+{
+	background-color: #F2F2F2;
+	font-size: 18px;
+
+}
+
+#cart #cartTitle li
+{
+	height: 60px;
+	line-height: 60px;
+}
+
+#cart .cartCont
+{
+	font-size: 14px;
+	padding: 15px 0px;
+	border-bottom: solid 2px #E6E6E6;
+}
+
+#cart .cartCont .errorWarn
+{
+	float: left;
+	color: #FF6600;
+	display: none;
+	font-size: 12px;
+	width: 120px;
+		
+}
+
+#cart .box80
+{
+	width: 80px;
+}
+
+#cart .box560
+{
+	width: 560px;
+}
+
+#cart .box120
+{
+	width: 120px;
+}
+
+#cart .box125
+{
+	width: 125px;
+}
+
+#cart .box185
+{
+	width: 185px;
+}
+
+#cart .box130
+{
+	width: 130px;
+}
+
+#cart .reduce,#cart .num,#cart .plus
+{
+	height: 24px;
+	line-height: 26px;
+	float: left;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-right: 0px solid #ccc;
+}
+
+#cart .reduce,#cart .plus
+{
+	width: 26px;
+	height: 26px;
+}
+
+#cart .num
+{
+	width: 70px;
+}
+
+#cart .plus
+{
+	border-right: 1px solid #ccc;
+}
+
+/*给图片左浮动  文本自动就上去*/
+#cart img
+{
+	float: left;
+}
+
+#cart .border
+{
+	border: 1px solid #E6E6E6;
+}
+
+/*给结算设个宽高就将盒子撑起来*/
+#cart #onlinePay
+{
+	width: 130px;
+	height: 60px;
+	background-color: #FF6600;
+	line-height: 60px;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+#cart #bottonPay li
+{
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+}
+
+
+/*猜你喜欢*/
+#popularize #popContent
+{
+	width: 3600px;
+	position: relative;
+	left: 0px;
+}
+
+
+
+#popularize .publicTitle .like
+{
+	height: 40px;
+	width: 130px;
+	background-color: #FF6600;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+
+#popularize #popContent .box240
+{
+	width: 168px;
+	height: 250px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	padding: 25px 30px;
+	
+}
+
+#popularize #popContent .box240:hover
+{
+	background: #ccc;
+}
+
+#popularize #popContent .tu
+{
+	width: 74px;
+	height: 28px;
+	background-position: -200px -500px;
+}
+
+#popularize #popContent .startIcon
+{
+	width: 116px;
+	height: 20px;
+	background: url(../images/star_small.gif) no-repeat;
+	background-position: 0px 0px;
+	display: inline-block;
+}
+
+#popularize #popContent .start1
+{
+	background-position: 0px -20px;
+}
+
+#popularize #popContent .start2
+{
+	background-position: 0px -40px;
+}
+
+#popularize #popContent .start3
+{
+	background-position: 0px -60px;
+}
+
+#popularize #popContent .start4
+{
+	background-position: 0px -80px;
+}
+
+#popularize #popContent .start5
+{
+	background-position: 0px -100px;
+}
+
+#popularize #popContent .start6
+{
+	background-position: 0px -120px;
+}
+
+#popularize #popContent .start7
+{
+	background-position: 0px -140px;
+}
+
+#popularize #popContent .start8
+{
+	background-position: 0px -160px;
+}
+
+#popularize #popContent .start9
+{
+	background-position: 0px -180px;
+}
+

@@ -1,0 +1,142 @@
+/*登录条*/
+#header .logintop
+{
+	background-color: #101010;
+	height: 30px;
+	text-align: right;
+	color: #b0b0b0;
+}
+
+#header .logintop a{
+	color: #ff6600;
+	
+}
+
+#header .logintop a:hover{
+	color: #ffff00;
+}
+
+/*logo 搜索框 购物车      #loSeShop子绝父相的定位*/
+#header #loSeShop
+{
+	position: relative;
+	height: 50px;
+}
+
+#header #logo
+{
+	height: 85px;
+	width: 200px;
+	background-image: url(../images/LogoBG.png);
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+/*这样子给div做超链接,又不能包裹div,不符合w3c逻辑  小的包大的*/
+#header #logo a
+{
+	width: 200px;
+	height: 85px;
+	display: block;
+}
+
+/*乐购+生活*/
+#header #logo a span
+{
+	position: relative;
+	right: -125px;
+	top: 10px;
+	color: #fff;
+	line-height: 30px;
+	font-size: 26px;
+}
+
+#header #logo a span.font20
+{
+	font-size: 22px;
+}
+
+#header .classAll
+{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FF6600;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	background-position: -248px -92px;
+}
+
+#header .classAllGreeen
+{
+	background-color: #93D56F
+}
+
+#header #mainNav
+{
+	width: 1000px;
+	height: 30px;
+}
+
+#header #mainNav li
+{
+	line-height: 30px;
+	height: 30px;
+	float: left;
+	padding: 0px 0px 0px 36px;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*购物车*/
+#header #shoppingCart li
+{
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+   background-color: #ebebeb;
+   float: left;
+   border: solid 1px #ccc;
+}
+/*#header #shoppingCart .current*/
+#header #shoppingCart .current
+{
+	background-color: #FF6600;
+	border: solid 1px #FF6600;
+	color: #fff;
+	background-position: -300px -4px;
+	text-align: right;
+	padding-right: 10px;
+	width: 90px;
+
+}
+
+/*搜索栏   search前面的header去掉这样可以精准的找到*/
+#search input
+{
+	float: left;
+}
+
+#search #keywords
+{
+	width: 390px;
+	height: 34px;
+	border: solid 2px #FF6600;
+	text-indent: 1em;
+}
+
+#search
+{
+	padding-right: 36px;
+}
+
+#search #searchsubmit
+{
+	width: 50px;
+	height: 38px;
+	border: solid 2px #FF6600;
+	background-color: #FF6600;
+	background-position: -192px -6px;
+}

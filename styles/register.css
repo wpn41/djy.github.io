@@ -1,0 +1,70 @@
+#register #login
+{
+	
+	margin: 50px auto;
+}
+
+#register .box400
+{
+	width: 408px;
+	height: 30px;
+	font-size: 14px;
+	padding: 10px 6px;
+	border: solid 1px #ccc;
+	margin: 0px auto;
+}
+
+#register .box400 p
+{
+	width: 120px;
+}
+
+#register .box400 p,#register .box400 input
+{
+	float: left;
+}
+
+#register .register
+{
+	width: 124px;
+	height: 36px;
+	background: url(../images/iconSpirit.png) no-repeat;
+	background-position: 0px 0px;
+	
+}
+
+#register .yan1
+{
+	background-position: -400px -500px;
+}
+
+#register .box400 input
+{
+	border: none;
+	outline: none; /*蓝框*/
+}
+
+#register .box400 #sendMsgBtn
+{
+	background-color: #ccc;
+	padding: 0px 10px;
+	cursor: pointer;
+}
+
+#register .agree
+{
+	width: 400px;
+	margin: auto;
+}
+
+#register #submit
+{
+	width: 399px;
+	height: 44px;
+	background-color: #FF6600;
+	font-size: 24px;
+	color: #fff;
+	line-height: 44px;
+	border: solid 1px #FF6600;
+	text-align: center;
+}

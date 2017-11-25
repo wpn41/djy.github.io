@@ -1,0 +1,348 @@
+/*分类菜单*/
+#classBanner #mainmenu
+{
+	width: 200px;
+	height: 420px;
+	background-color: #F3F3F3;
+	
+	position: relative;
+	z-index: 101;  /*提升副版本的z轴可以兼容低版本*/
+	
+}
+
+/*一级菜单p*/
+#classBanner #mainmenu p
+{
+	height: 28px;
+	text-indent: 15px;
+	line-height: 28px;
+	font-size: 14px;
+	border: solid 1px transparent;
+	border-right: none;
+	
+	position: relative;
+	z-index: 111;
+}
+
+/*移上去*/
+#classBanner #mainmenu p.current
+{
+	color: #FF6600;
+	border: solid 1px #FF6600;
+	border-right: none;
+	background-color: #fff;
+}
+
+/*二级菜单_三级大盒子*/
+#classBanner #mainmenu .submenu
+{
+	min-height: 398px;
+	width: 518px;
+
+	background-color: #fff;
+	padding: 10px 40px 10px 20px;
+	border: solid 1px #FF6600;
+	
+	
+	position: absolute;  /*要以ul为相对定位*/
+	left: 199px;
+	top: 0px;
+	
+	z-index: 110;
+	display: none;
+}
+
+#classBanner #mainmenu .submenu ul
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#classBanner #mainmenu .submenu ul,#classBanner #mainmenu .submenu dl,#classBanner #mainmenu .submenu dt,#classBanner #mainmenu .submenu dd
+{
+	width: 518px;
+}
+
+/*二级分类的标题*/
+#classBanner #mainmenu .submenu dt
+{
+	color: #FF6600;
+	font-size: 14px;
+	border-bottom: solid 1px #E6E6E6;
+}
+
+/*三级分类的连接与样式*/
+#classBanner #mainmenu .submenu dd a
+{
+	margin-right: 10px;
+	color: #626262;
+}
+
+/*a移上去*/
+#classBanner #mainmenu .submenu dd a:hover
+{
+
+	color: #FF6600;
+}
+
+#classBanner #mainmenu .submenu ul
+{
+/*	width: 518px;*/
+	height: 30px;	
+}
+
+#classBanner #mainmenu .submenu ul li
+{
+	float: left;
+	margin-right: 20px;	
+}
+
+
+
+#classBanner #legoBanner
+{
+	width: 1000px;
+	height: 420px;
+}
+
+/*今日推荐*/
+
+#recommend #reconContent
+{
+	width: 1188px;
+	margin: 0px auto;
+	border-right: solid 2px #FF6600;  /*清除浮动父级文本自适应高度*/
+}
+
+#recommend #reconContent .recFirst198
+{
+	width: 196px;
+	height: 248px;
+	border-left: solid 2px #FF6600;
+	border-bottom: solid 2px #FF6600;
+	float: left;
+}
+
+#recommend #reconContent .recFirst198 .xianshi
+{
+	width: 72px;
+	height: 28px;
+	background-position: -200px -200px;
+}
+
+
+/*电子书*/
+#ebook #ebookContent
+{
+	width: 912px;
+}
+
+
+#ebook .ebookClassRig
+{
+	width: 672px;
+	display: none;
+}
+
+/*一个.box168*/
+#ebook .ebookClassRig .box168
+{
+	width: 166px;
+	height: 217px;
+	float:left
+}
+
+/*两个的.box168*/
+#ebook .ebookClassRig .box336
+{
+	width: 334px;
+
+}
+
+
+/*电子书里面的最右边排行榜*/
+/*畅销排行榜*/
+#ebook #ebookRank
+{
+	width: 270px;
+	height: 439px;
+	overflow: hidden;
+	border: solid 2px #ccc;
+	padding-left: 6px;
+}
+
+#ebook #ebookRank li
+{
+	width: 270px;
+	cursor: pointer;
+}
+
+
+#ebook #ebookRank li p
+{
+	float: left;
+}
+
+#ebook #ebookRank li .rankNum
+{
+	width: 15px;
+	font-family: verdana;
+	font-size: 16px;
+	
+	height: 40px;
+	line-height: 40px;
+	/*数字与标题同高就对齐了*/
+}
+
+#ebook #ebookRank li .rankIMG,#ebook #ebookRank li .rankText
+{
+	width: 255px;
+	border-bottom: solid 2px #ccc;
+}
+
+#ebook #ebookRank li .rankText
+{
+	font-size: 14px;
+	height: 41px;
+	line-height: 40px;
+}
+
+#ebook #ebookRank li .rankIMG 
+{
+	line-height: 20px;
+	display: none;
+}
+/*之前老师说的 只要给图片设置左浮动  文字就会自动适应*/
+#ebook #ebookRank li .rankIMG img
+{
+	float: left;
+	margin-right: 6px;
+}
+
+/*使用伪类清除浮动*/
+#ebook #ebookRank li:after
+{
+	content: "";
+	width: 0px;
+	height: 0px;
+	display: block;
+	clear: both;
+}
+
+
+/*推广商品*/
+#popularize
+{
+  overflow-x: hidden;
+}
+
+#popularize #popularizeTitle .current
+{
+	background: transparent;
+	color: #FF6600;
+	
+}
+
+#popularize #popularizeTitle li
+{
+	padding: 0px 6px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#popularize #popContent
+{
+	width: 3600px;
+	position: relative;
+	left: 0px;
+}
+
+#popularize #popContent .box240
+{
+	width: 168px;
+	height: 250px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	padding: 25px 30px;
+	
+}
+
+#popularize #popContent .box240:hover
+{
+	background: #ccc;
+}
+
+#popularize #popContent .comment
+{
+	background-position: -400px -195px;
+	padding-left: 30px;
+}
+
+
+/*首页楼层跳转效果*/
+#floorScroll
+{
+	width: 40px;
+	position: fixed;
+	top: 300px;
+	left: 0px;
+	
+	display: none;
+}
+
+#floorScroll li
+{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color: #f2f2f2;
+}
+
+#floorScroll li span
+{
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	right: -45px;
+	top: 8px;
+}
+
+#floorScroll .t1
+{
+	background-position: 0px -240px;
+}
+
+#floorScroll .t2
+{
+	background-position: 0px 0px;
+}
+
+#floorScroll .t3
+{
+	background-position: 0px -80px;
+}
+
+#floorScroll .t4
+{
+	background-position: 0px -160px;
+}
+
+#floorScroll .t5
+{
+	background-position: 0px -200px;
+}
+
+#floorScroll .t6
+{
+	background-position: 0px -320px;
+}
+
+#floorScroll .t7
+{
+	background-position: 0px -440px;
+}
+
+#floorScroll .t8
+{
+	background-position: 0px -520px;
+}

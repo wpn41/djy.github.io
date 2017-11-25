@@ -1,0 +1,287 @@
+.autoBox
+{
+	width: 100%;
+}
+
+.box1200
+{
+	width: 1200px;
+	margin: auto;
+}
+
+.box800
+{
+	width: 800px;
+	margin: auto;
+}
+
+.fl
+{
+	float: left;
+}
+
+.fr
+{
+	float: right;
+}
+
+/*贯穿线*/
+.dele
+{
+	text-decoration: line-through;
+}
+
+/*公共标题*/
+.publicTitle
+{
+	height: 40px;
+	border-bottom: solid 5px #FF6600;
+	line-height: 40px;
+	font-size: 26px;
+	color: #101010;
+}
+
+/*楼层的标题菜单切换公用*/
+.publicTitleTab li
+{
+	float:left;
+	font-size: 16px;
+	padding: 0px 15px;
+}
+
+.publicTitleTab .current
+{
+   background-color: #FF6600;
+   color: #fff;
+}
+
+/*公共的楼层分类*/
+.publicLayerClass
+{
+	width: 238px;  
+	border-right: solid 2px #CCC;
+}
+
+.publicLayerClass ul
+{
+	height: 152px;
+}
+
+.publicLayerClass li
+{
+	width: 79px;  /*238/3*/
+	height: 38px;
+	float: left;
+	line-height: 38px;
+	font-size: 14px;
+}
+
+
+/*服装公共的品牌*/
+.publicBrand img
+{
+	float: left;
+	width: 133px;
+}
+
+.publicBrand120 img
+{
+	float: left;
+	width: 120px;
+}
+
+/*服装公共的内容960=426+178x3*/
+.publicCon
+{
+	width: 960px;
+	display: none;
+}
+
+.publicCon .box178
+{
+	width: 176px;
+	height: 340px;
+	float: left;
+}
+
+.publicCon .box426
+{
+	width: 424px;
+}
+
+.publicCon .boxHeight160
+{
+	height: 160px;
+	
+}
+
+.publicCon .publicLayerImg426 img
+{
+	width: 424px;
+	height: 160px;
+	
+}
+
+.publicCon .discount
+{
+	width: 90px;
+	height: 20px;
+	background-color: #F42A0D;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 15px;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+	
+}
+
+/*公共的家居*/
+.publicFurImg
+{
+	width: 483px;
+	height: 498px;
+	border: solid 2px #ccc;;
+}
+
+.publicFurCon 
+{
+	width: 712px;
+}
+
+.publicFurCon .box178
+{  ;
+     width: 176px;
+     height: 200px;
+	float: left;
+}
+
+.publicFurCon .boxHeight338
+{
+	height: 338px;  /*也可以下面的图片太高了就采取将高度设置小些*/
+}
+.publicFurCon .boxHeight160
+{
+	height: 160px;
+}
+
+.publicFurCon .boxHeight160 img
+{
+	width: 173px;
+	height: 87px;  /*最后还是采取将heght:119px*/
+	float: right;
+}
+/*右边++底部的边框线 */
+.boxRB
+{
+ border-bottom: solid 2px #ccc;
+ border-right: solid 2px #ccc;
+}
+.paddingLeft10
+{
+	padding-left: 10px;
+}
+
+.paddingLeft30
+{
+	padding-left: 30px;
+}
+
+.fontsize14
+{
+	font-size: 14px;
+}
+
+.fontsize16
+{
+	font-size: 16px;
+}
+
+.fontsize18
+{
+	font-size: 18px;
+}
+
+.fontsize20
+{
+	font-size: 20px;
+}
+
+
+.fontsize22
+{
+	font-size: 22px;
+}
+
+.fontsize24
+{
+	font-size: 24px;
+}
+
+.fontsize26
+{
+	font-size: 26px;
+}
+
+.colorwhite
+{
+	color: #fff;
+}
+
+.colorRed
+{
+	color: #f42a0d;
+}
+
+
+.colororg
+{
+	color: #FF6600;
+}
+
+.icon
+{
+	background-image: url(../images/iconSpirit.png);
+	background-repeat: no-repeat;
+}
+
+.marginTop5
+{
+	margin-top: 5px;
+}
+
+.marginTop10
+{
+	margin-top: 10px;
+}
+
+.marginTop40
+{
+	margin-top: 40px;
+}
+
+
+.clear
+{
+	clear: both;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.textindent
+{
+	text-indent: 1em;
+}
+
+.textright
+{
+	text-align: right;
+}
+
+.fontweight
+{
+	font-weight: bold;
+}

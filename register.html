@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>乐购商城|用户注册</title>
+		<link rel="stylesheet" type="text/css" href="styles/reset.css">
+		<link rel="stylesheet" type="text/css" href="styles/public.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/header.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/footer.css" />
+		<link rel="stylesheet" type="text/css" href="styles/register.css" />
+		<script type="text/javascript" src="scripts/jquery-1.11.2.js"></script>
+		<meta name="Description" content="京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!"/>
+		<meta name="Keywords" content="乐购商城legochina.cn,网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="autoBox" id="header">
+			<!--登录条-->
+				<div class="autoBox logintop">
+					<div class="box1200">
+					欢迎光临乐购，请<a href="#">登陆</a>\<a href="#">注册</a>
+				    </div>
+				</div>
+				
+			<!--logo+搜索+购物车-->  
+				<div class="box1200 marginTop5" id="loSeShop">
+					<!--左侧--logo-->
+					<div class="fl" id="logo">
+						<a href="index.html" title="乐购首页">
+						<span class="font20">注<br/>册</span>
+						</a>
+					</div>
+					<!--右侧--购物车-->
+					<ul class="fr" id="shoppingCart">
+						<li class="icon current">购物车 3</li>
+						<li>我的订单</li>
+					</ul>
+					<!--右侧--搜索-->
+					<div class="fr" id="search">  <!--搜索都是get/-->
+						<form action="" method="get">  
+							<input type="text" id="keywords" placeholder="创意文具" />
+							<input class="icon" type="submit" name="" value="" id="searchsubmit"/>
+						</form>
+					</div>
+			        <div class="clear"></div>
+				</div>
+		</div>
+		<!--用户注册-->
+		<!--登录开始-->
+		<div class="box1200" id="register">
+			<!--用户名-->
+			<div class="box400" id="login">
+				<p>用户名</p>
+				<input type="text" id="userName" placeholder="用户名" />
+			</div>
+			<!--设置密码-->
+			<div class="box400" id="login">
+				<p>设置密码</p>
+				<input type="password" id="pwd" placeholder="建议设置两种字符密码" />
+			</div>
+			<!--设置密码-->
+			<div class="box400" id="login">
+				<p>确认密码</p>
+				<input type="password" id="pwd" placeholder="再次输入密码" />
+			</div>
+			<!--请输入验证码-->
+			<div class="box400" id="login">
+				<p>中国+86</p>
+				<input type="text" id="mobile" placeholder="请输入验证码" />
+				<input type="button" id="button" value="" /><img class="register yan1"/>
+			</div>
+			<!--手机号码-->
+			<div class="box400" id="login">
+				<p>手机号码</p>
+				<input type="text" id="mobileNumber" placeholder="请输入手机号码" />
+				<input type="button" id="sendMsgBtn" value="获取验证码" />
+			</div>
+			<p class="agree"><input type="checkbox" />我已阅读病同意<span class="colorRed"><京东用户注册协议></span></p>
+			<div class="box400">
+				<input type="submit" id="submit" value="立即注册" />
+			</div>
+		</div>
+		
+		<!--<script type="text/javascript">
+			//倒计时的初始变量
+			var num=60;
+			$("#sendMsgBtn").click (function () {
+				//设置定时器,每秒更新一次
+				var numTimeID=setInterval(function () {
+					//设置按钮禁用
+					$("#sendMsgBtn").prop("disabled",true);
+					//设置按钮的文本
+					$("#sendMsgBtn").val("等待 "+num+" 秒后再次获取验证码");
+					--num;
+					//变量小于-1就清除定时器,并初始化按钮状态和计时变量
+					if(num<-1)
+					{
+						clearInterval(numTimeID);
+						$("#sendMsgBtn").val("点击获取验证码");
+						$("#sendMsgBtn").prop("disabled",false);
+						num=60;
+					}
+				},1000);
+			});
+		</script>-->
+		
+		<!--尾部-->
+		<div class="autoBox marginTop10" id="footer">
+			<!--服务部分-->
+               <div class="autoBox" id="service">
+               	<ul>
+               		<li></li>
+               		<li class="icon2"></li>
+               		<li class="icon3"></li>
+               		<li class="icon4"></li>
+               	</ul>
+               </div>
+			<!--导航向导-->
+               	<div class="box1200" id="help">
+					<ul>
+						<li>
+							<dl>
+								<dt>购物指南</dt>
+								<dd>
+									<a href="#">购物流程</a>
+									<a href="#">发票制度</a>
+									<a href="#">账户管理</a>
+									<a href="#">会员优惠</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>支付方式</dt>
+								<dd>
+									<a href="#">货到付款</a>
+									<a href="#">网上支付</a>
+									<a href="#">礼品卡支付</a>
+									<a href="#">银行转账</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>订单服务</dt>
+								<dd>
+									<a href="#">订单派送查询</a>
+									<a href="#">订单状态说明</a>
+									<a href="#">自助取消订单</a>
+									<a href="#">自助修改订单</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>退货单</dt>
+								<dd>
+									<a href="#">退换货政策</a>
+									<a href="#">自助申请退换货</a>
+									<a href="#">退换货进度查询</a>
+									<a href="#">退款方式和时间</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>商家服务</dt>
+								<dd>
+									<a href="#">商家中心</a>
+									<a href="#">运营服务</a>
+									<a href="#">加入尾品汇</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+					<p class="icon" id="footerLogo"></p>
+					<div class="clear"></div>
+			</div>
+			<!--版权信息-->
+			<div class="box1200 marginTop40" id="copyRights">
+               	<p class="center">
+					公司简介| Investor  Relations | 网赚联盟 | 乐购招商 | 机构销售 |手机乐购 | 官方Blog | 热词搜索<br />
+					Copyright&copy;乐购网 2014-2017 All Rights Reserved
+				</p>
+           </div> 
+		</div>
+		</script>
+	</body>
+</html>

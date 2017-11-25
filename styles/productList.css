@@ -1,0 +1,313 @@
+#HotBanner
+{
+	width: 1200px;
+	height: 520px;  /*430+底下图90*/
+}
+
+
+
+#HotBanner #banner1
+{
+	width: 1000px;
+	height: 430px;
+	
+}
+
+#HotBanner #rightHot
+{
+	width: 200px;
+	height: 430px;
+}
+
+#HotBanner #rightHot .titleHot
+{
+	height: 30px;
+	background-color: #93d470;
+	color: #fff;
+}
+
+#HotBanner #rightHot .rightBook li
+{
+	width: 200px;
+	height: 40px;
+	border-bottom: solid 2px #b4b3b3;
+	overflow: hidden;
+}
+
+#HotBanner #rightHot .rightBook .Num
+{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #b3b3b3;
+	
+}
+
+#HotBanner #rightHot .rightBook p.current
+{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #FF6600;
+	
+}
+
+#HotBanner #rightHot .rightBook img
+{
+	width: 90px;
+	margin-left: 8px;
+	float: left;
+	margin-top: -18px;
+}
+
+/*#HotBanner .small
+{
+	width: 1200px;
+	height: 90px;
+}*/
+
+
+/*猜你喜欢 乐购图书折购区*/
+#popularize .publicTitle .like
+{
+	height: 40px;
+	width: 222px;
+	background-color: #FF6600;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+
+#popularize #popContent .box240
+{
+	width: 168px;
+	height: 250px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	padding: 25px 30px;
+	
+}
+
+#popularize #popContent .box240:hover
+{
+	background: #ccc;
+}
+
+#popularize #popContent .tu
+{
+	width: 74px;
+	height: 28px;
+	background-position: -200px -500px;
+}
+
+#popularize #popContent .startIcon
+{
+	width: 116px;
+	height: 20px;
+	background: url(../images/star_small.gif) no-repeat;
+	background-position: 0px 0px;
+	display: inline-block;
+}
+
+#popularize #popContent .start1
+{
+	background-position: 0px -20px;
+}
+
+#popularize #popContent .start2
+{
+	background-position: 0px -40px;
+}
+
+#popularize #popContent .start3
+{
+	background-position: 0px -60px;
+}
+
+#popularize #popContent .start4
+{
+	background-position: 0px -80px;
+}
+
+#popularize #popContent .startIcon .start5
+{
+	background-position: 0px -100px;
+}
+
+#popularize #popContent .start6
+{
+	background-position: 0px -120px;
+}
+
+#popularize #popContent .start7
+{
+	background-position: 0px -140px;
+}
+
+#popularize #popContent .start8
+{
+	background-position: 0px -160px;
+}
+
+#popularize #popContent .start9
+{
+	background-position: 0px -180px;
+}
+
+
+/*新书上架*/
+#newBook
+{
+	height: 500px;
+}
+
+#newBook .newLeft,#newBook .newBookCon
+{
+	width: 902px;
+}
+
+#newBook .newLeft span
+{
+	width: 40px;
+	line-height: 50px;
+	font-size: 28px;
+	background-color: #FF6600;
+	color: #fff;
+	text-align: center;
+}
+
+#newBook .newBookCon
+{
+	width: 900px;
+	border: solid 2px #ededed;
+	border-top: none;
+}
+
+#newBook .newBookCon .box180
+{
+	width: 152px;
+	height: 220px;
+	float: left;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 14px;
+}
+
+
+#newBook .newBookCon .box180:hover
+{
+	background: #ccc;
+}
+
+/*最右边*/
+#newBook .newRight
+{
+	width: 280px;
+	height: 500px;
+}
+
+/*电子书里面的最右边排行榜*/
+/*畅销排行榜*/
+#newBook #ebookRank
+{
+	width: 270px;
+	height: 498px;
+	overflow: hidden;
+	border: solid 2px #ccc;
+	padding-left: 6px;
+}
+
+#newBook #ebookRank li
+{
+	width: 270px;
+	cursor: pointer;
+}
+
+
+#newBook #ebookRank li p
+{
+	float: left;
+}
+
+#newBook #ebookRank li .rankNum
+{
+	width: 15px;
+	font-family: verdana;
+	font-size: 16px;
+	
+	height: 40px;
+	line-height: 40px;
+	/*数字与标题同高就对齐了*/
+}
+
+#newBook #ebookRank li .rankIMG,#newBook #ebookRank li .rankText
+{
+	width: 255px;
+	border-bottom: solid 2px #ccc;
+}
+
+#newBook #ebookRank li .rankText
+{
+	font-size: 14px;
+	height: 44px;
+	line-height: 40px;
+}
+
+#newBook #ebookRank li .rankIMG 
+{
+	line-height: 20px;
+	display: none;
+}
+/*之前老师说的 只要给图片设置左浮动  文字就会自动适应*/
+#newBook #ebookRank li .rankIMG img
+{
+	float: left;
+	margin-right: 6px;
+}
+
+/*使用伪类清除浮动*/
+#newBook #ebookRank li:after
+{
+	content: "";
+	width: 0px;
+	height: 0px;
+	display: block;
+	clear: both;
+}
+
+
+/*独家提供*/
+/*#excuOffer .excTitle
+{
+	height: 40px;
+	line-height: 40px;
+	font-size: 26px;
+	border-bottom: solid 6px #FF6600;
+	color: #101010;
+}
+
+
+#excuOffer .excTab li
+{
+	float: left;
+	font-size: 16px;
+	padding: 0px 15px;
+}
+
+.excTab .current
+{
+   background-color: #FF6600;
+   color: #fff;
+}*/
+
+#excuOffer .only
+{
+	width: 43px;
+	height: 40px;
+	line-height: 45px;  /*本来高度就是40 还有底边线   显示出来就是有间隙  直接把行高改成跟他一样高就可以*/
+	background-color: #FF6600;
+	color: #fff;
+}

@@ -1,0 +1,196 @@
+#login
+{
+	background-color: #000;
+	height: 475px;
+	background-image: url(../images/loginbjt.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#login #login-form
+{
+	width: 346px;
+	height: 360px;
+	background-color: rgba(255,255,255,0.9);
+	
+	
+	position: relative;
+	/*z-index: 4;*/
+	float: right;
+	top: 40px;
+	overflow: visible;
+}
+
+#login #login-form #loginTitle
+{
+	height: 56px;
+	border-bottom: solid 2px #f4f4f4;
+	cursor: pointer;
+	
+}
+
+#login #login-form #loginTitle .current
+{
+	color: #FF0000;
+}
+
+#login #login-form #loginTitle li
+{
+	height: 56px;
+	line-height: 56px;
+	width: 173px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	/*position: relative;*/
+}
+
+/*#login #login-form #loginTitle a
+{
+	width: 99%;
+	height: 18px;
+	border-right: solid 1px #f4f4f4;
+	position: absolute;
+	left: 0px;
+	top: 18px;
+}*/
+
+#login #pcLogin,#login #phoneLogin
+{
+	padding: 23px;
+	height: 250px;
+	
+}
+
+#phoneLogin
+{
+    position: relative;
+}
+
+#phoneLogin #qrCode
+{
+	padding: 6px;
+	border: solid 1px #f4f4f4;
+	position: absolute;
+	left: 90px;  
+	top: 23px;
+	
+	/*left: 100px; 是为了隐藏pc端而放中间
+	 * left: 23px;
+	top: 23px;*/
+}
+
+
+#phoneLogin #phone
+{
+	position: absolute;
+	right: 8px;
+	top: 16px;
+	
+	opacity: 0;
+	/*display: none;*/
+}
+
+#pcLogin
+{
+	display: none;
+}
+
+#pcLogin input
+{
+	width: 299px;
+	height: 39px;
+	border: solid 1px #bdbdbd;
+	border-left: none;
+	margin-bottom: 20px;
+}
+
+#pcLogin p
+{
+	position: relative;
+}
+
+#pcLogin #pcSub
+{
+	background-color: #FF6600;
+	font-size: 24px;
+	letter-spacing: 15px;
+	color: #fff;
+	border: solid 1px #FF6600;
+}
+
+#otherLogin
+{
+	width: 300px;
+	height: 40px;
+	margin: -20px auto;
+	
+}
+
+#otherLogin ul
+{
+	width: 300px;
+	height: 40px;
+}
+
+#otherLogin ul li
+{
+	float: left;
+	width: 100px;
+}
+
+#otherLogin .oIcon
+{
+	width: 18px;
+	height: 18px;
+	background: url(../images/iconSpirit.png) no-repeat;
+	background-position: 0px 0px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#otherLogin .w1
+{
+	background-position: -218px -103px;
+}
+
+#otherLogin .w2
+{
+	background-position: -199px -103px;
+}
+
+#otherLogin .w3
+{
+	background-position: -200px -120px;
+}
+
+/*图标字体*/
+@font-face {
+	font-family:"taobaoIcon";
+	src: url(../font/font_1451959379_8626566.eot);
+    src: url(../font/font_1451959379_8626566.eot?#iefix) format('embedded-opentype'), url(../font/font_1451959379_8626566.woff) format('woff'), url(../font/font_1451959379_8626566.ttf) format('truetype'), url(../font/font_1451959379_8626566.svg#iconfont) format('svg');
+}
+
+
+/*定义字体图标的类*/
+.loginIcon
+{
+	font-family: "taobaoIcon";
+	font-size: 20px;
+	
+	display: inline-block;
+	width: 39px;
+	height:39px;
+	line-height: 39px;
+	border: solid 1px #bdbdbd;;
+	text-align: center;
+	
+	background-color: #F4F4F4;
+	
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
